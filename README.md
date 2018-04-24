@@ -2,16 +2,24 @@
 
 ## fzn-oscar-cbls
 
+All experiments were run under fzn-oscar-cbls version as of 18.04.2018 - [http://user.it.uu.se/~gusbj192/fzn-oscar-cbls/versions/oscar-cbls-flatzinc_18_04_2018.zip]
+
 ## MiniZinc
+
+The modified version of the MiniZinc compiler used can be found at [https://github.com/GustavBjordal/libminizinc/tree/feature/ls-annotation].
+For the experiments, the version as of commit [a96548edda68c9a8d52934ae6c191d864ec6ccb8](https://github.com/GustavBjordal/libminizinc/tree/a96548edda68c9a8d52934ae6c191d864ec6ccb8) has been used.
 
 # Disclaimer
 
 Filenames and syntax has changed since running the experiments, 
-but everything remains logaically equivallent.
+but changes are only syntactic.
 However, for complete reproducibility, old filenames and syntax has been
 preserved in this repository.
 
+## Temporary Workarounds
 
+Currently one cannot use `a = b` or `a == b` to express equality in pre- or post-conditions. 
+Instead one has to use `int_eq(a,b)`.
 
 ## Changes
 
