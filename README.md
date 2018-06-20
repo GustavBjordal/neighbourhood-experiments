@@ -15,14 +15,13 @@ For the experiments, the version as of commit [a96548edda68c9a8d52934ae6c191d864
 
 ## Disclaimer
 
-Filenames and syntax has changed since running the experiments,
-but changes are only syntactic.
+Filenames and syntax has changed since running the experiments.
 However, for complete reproducibility, old filenames and syntax has been
 preserved in this repository.
 
 ### Temporary Workarounds
 
-Currently one cannot use `a = b` or `a == b` to express equality in pre- or post-conditions.
+Currently, one cannot use `a = b` or `a == b` to express equality in pre- or post-conditions.
 Instead one has to use `int_eq(a,b)`.
 
 ### Changes
