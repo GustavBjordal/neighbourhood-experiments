@@ -1,6 +1,6 @@
 # Overview
 
-This repository contain the data and all information regarding the experiments conducted in [todo].
+This repository contain the data and all information regarding the experiments conducted in [G. Björdal, P. Flener, J. Pearson, P.J. Stuckey, and G. Tack. Declarative local-search neighbourhoods in MiniZinc. In: M. Alamaniotis, J.-M. Lagniez, and A. Lallouet (editors), ICTAI 2018. IEEE Computer Society, 2018.].
 
 ## Software
 ### fzn-oscar-cbls
